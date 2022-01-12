@@ -1,6 +1,6 @@
 {
-  "name": "Bdrl-Userbot",
-  "description": "BDRL-USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "name": "Reyy-Userbot",
+  "description": "REYY-USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/9f463e178dd4f98f92b2a.jpg",
   "keywords": [
     "telegram",
@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Yansaii/Bdrl-userbot",
-  "telegram": "https://t.me/Bdrllll",
+  "repository": "https://github.com/ReyyNada/Reyy-userbot",
+  "telegram": "https://t.me/SangDappaa",
   "success_url": "https://t.me/bdrlsupportt",
   "stack": "container",
   "env": {
