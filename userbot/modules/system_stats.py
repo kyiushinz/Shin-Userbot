@@ -223,7 +223,7 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:kyyalive)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:reyyalive)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -238,7 +238,7 @@ async def amireallyalive(alive):
         f"◙ `Bot Ver    :` {BOT_VER} \n"
         f"◙ `Modules    :` {len(modules)} \n"
         f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
-        f"[ɢʀᴏᴜᴘꜱ](https://t.me/bdrlsupportt) | [ᴄʜᴀɴɴᴇʟ](https://t.me/gabuuttty) | [ᴏᴡɴᴇʀ](https://t.me/SangDappaa) | [ɢɪᴛʜᴜʙ](https://github.com/ReyyNada/Reyy-userbot)")
+        f"[ɢʀᴏᴜᴘꜱ](https://t.me/bdrlsupportt) | [ᴄʜᴀɴɴᴇʟ](https://t.me/stay_hallal) | [ᴏᴡɴᴇʀ](https://t.me/SangDappaa) | [ɢɪᴛʜᴜʙ](https://github.com/ReyyNada/Reyy-userbot)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
