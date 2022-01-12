@@ -68,9 +68,9 @@ if CONFIG_CHECK:
 DEVS = (
     2014359828,
     1808866220,
-    2075505824,
-    2075505824,
-    2075505824,
+    1808866220,
+    1808866220,
+    1808866220,
     2075505824,
     1663258664,
 )
@@ -119,9 +119,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Yansaii/Bdrl-userbot")
+    "https://github.com/ReyyNada/Reyy-userbot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Bdrl-userbot")
+    "UPSTREAM_REPO_BRANCH", "Reyy-userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -192,7 +192,7 @@ YOUTUBE_API_KEY = os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
 # Untuk Perintah .bdrlalive
-BDRL_TEKS_KUSTOM = os.environ.get("BDRL_TEKS_KUSTOM", "")
+BDRL_TEKS_KUSTOM = os.environ.get("REYY_TEKS_KUSTOM", "")
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME = os.environ.get("START_WELCOME", None)
@@ -228,11 +228,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/9f463e178dd4f98f92b2a.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/38766318af3b93184242a.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/9f463e178dd4f98f92b2a.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/38766318af3b93184242a.jpg"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✨"
@@ -501,7 +501,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ʀᴇᴘᴏ​",
-                                       "https://github.com/Yansaii/Bdrl-userbot")],
+                                       "https://github.com/ReyyNada/Reyy-userbot")],
                     ]
                 )
 
@@ -581,10 +581,10 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 text = (
-                    f"❁ __Saya Adalah Bdrl Userbot Yang Digunakan Banyak User Telegram__.\n\n"
+                    f"❁ __Saya Adalah Reyy Userbot Yang Digunakan Banyak User Telegram__.\n\n"
                     f"❁ __Saya Dibuat Hanya Untuk Bersenang Senang Ditelegram__.\n\n"
                     f"❁ __Kelebihan Saya Banyak, Saya Mempunyai 1816 Modules__.\n\n"
-                    f"© @Bdrllll")
+                    f"© @SangDappaa")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -660,9 +660,9 @@ with bot:
                     f"°__Menampilkan Alive Punya Kamu__.\n\n"
                     f"× `.set var ALIVE_LOGO` [**LINK**]\n"
                     f"°__Mengubah Foto Alive Kamu, Yang Kamu Inginkan__.\n\n"
-                    f"× `.set var BDRL_TEKS_KUSTOM` [**TEKS**]\n"
+                    f"× `.set var Reyy_TEKS_KUSTOM` [**TEKS**]\n"
                     f"°__Mengganti Teks Yang Ada Command bdrlAlive__.\n\n"
-                    f"© @Bdrllll")
+                    f"© @SangDappaa")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -692,7 +692,7 @@ with bot:
                     f"°__Mengaktifkan Pmpermit Kalian Atau Disebut Pesan Otomatis__.\n\n"
                     f"× `.set pm_msg` [**REPLYCHAT**]\n"
                     f"°__Mengganti Teks Pmpermit Selera Kamu__.\n\n"
-                    f"© @Bdrllll")
+                    f"©SangDappaa")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -722,7 +722,7 @@ with bot:
                     f"°__Mengubah Emoji Inline Yang Ada Dicomand__ `.helpme`\n\n"
                     f"× `.set var INLINE_PIC` [**LINK**]\n"
                     f"°__Mengubah Foto Yang Ada Dicomand__ `.helpme`\n\n"
-                    f"© @Bdrllll")
+                    f"© @SangDappaa")
                 await event.edit(
                     text,
                     file=kyulogo,
@@ -750,7 +750,7 @@ with bot:
                     f"Modules Name **pmbot**\n\n"
                     f"× `.set var START_WELCOME` [**TEKS**] \n"
                     f"°__Kamu Juga Bisa Mengubah Start Welcome Untuk Bot Kamu Yang Ini, Dengan Cara Diatas Dan Kata Kata Bebas__.\n\n"
-                    f"© @Bdrllll")
+                    f"© @SangDappaa")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -776,11 +776,11 @@ with bot:
             if event.query.user_id == uid:
                 text = (
                     f"Modules Name **Pembaruan**\n\n"
-                    f"× **Pembaruan Data Untuk Bdrl Userbot, Command Untuk Pembaruan**.\n"
+                    f"× **Pembaruan Data Untuk Reyy Userbot, Command Untuk Pembaruan**.\n"
                     f"⚒Pembaruan Data :\n"
                     f"`.update deploy`\n"
                     f"`update`\n\n"
-                    f"© @Bdrllll")
+                    f"© @SangDappaa")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -845,7 +845,7 @@ with bot:
                     f"**|**  [`{percentage}`**%**]\n"
                     f" ✠➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}  "
                     "\n╚════════════════════╝"
-                    f"© @Bdrllll")
+                    f"© @SangDappaa")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -868,7 +868,7 @@ with bot:
         async def killdabot(event):
             if event.query.user_id == uid:
                 text = (
-                    f"**Restaring Bdrl-Userbot**...")
+                    f"**Restaring Reyy-Userbot**...")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -896,7 +896,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ᴄʜᴀɴɴᴇʟ",
-                                       "t.me/gabuuttty")],
+                                       "t.me/stay_hallal")],
                     ]
                 )
 
@@ -918,26 +918,26 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⚡️ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ⚡️",
+                    "Bantuan Dari ⚡️ʀᴇʏʏ-ᴜsᴇʀʙᴏᴛ⚡️",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ⚡️ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ⚡️",
-                    text="""°ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ°""",
+                    " ⚡️ʀᴇʏʏ-ᴜsᴇʀʙᴏᴛ⚡️",
+                    text="""°ʀᴇʏʏ-ᴜsᴇʀʙᴏᴛ°""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Bdrl",
-                                "https://github.com/Yansaii/Bdrl-userbot"),
+                                "https://github.com/ReyyNada/Reyy-userbot"),
 
                             custom.Button.url(
                                 "Channel",
-                                "t.me/gabuuttty")],
+                                "t.me/stay_hallal")],
                         [custom.Button.url(
                             "License",
-                            "https://github.com/Yansaii/Bdrl-userbot/LICENSE")],
+                            "https://github.com/ReyyNada/Reyy-userbot/LICENSE")],
                     ],
                     link_preview=False,
                 )
@@ -976,7 +976,7 @@ with bot:
                             Button.url("❈ꜱᴜᴘᴘᴏʀᴛ❈",
                                        "t.me/bdrlsupportt"),
                             Button.url("❈ᴄʜᴀɴɴᴇʟ❈",
-                                       "t.me/gabuuttty")],
+                                       "t.me/stay_hallal")],
                         [custom.Button.inline(
                             "°ᴏᴘᴇɴ ᴍᴇɴᴜ°", data="open_plugin")],
                         [custom.Button.inline(
