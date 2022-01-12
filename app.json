@@ -1,7 +1,7 @@
 {
   "name": "Reyy-Userbot",
   "description": "REYY-USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/9f463e178dd4f98f92b2a.jpg",
+  "logo": "https://telegra.ph/file/38766318af3b93184242a.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -86,7 +86,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "Bdrl-Userbot",
+      "value": "Reyy-Userbot",
       "required": false
     },
     "ALIVE_NAME": {
@@ -95,12 +95,12 @@
     },
      "ALIVE_LOGO": {
       "description": "Gambar dalam module .alive",
-      "value": "https://telegra.ph/file/9f463e178dd4f98f92b2a.jpg",
+      "value": "https://telegra.ph/file/38766318af3b93184242a.jpg",
       "required": false
     },
-    "BDRL_TEKS_KUSTOM": {
+    "REYY_TEKS_KUSTOM": {
       "description": "Kustom Pesan Alive Mu Untuk Perintah .bdrlalive (Isi Terserah)",
-      "value": "I'am Using Bdrl-Userbot ✨",
+      "value": "I'am Using Reyy-Userbot ✨",
       "required": false 
     },
     "S_PACK_NAME": {
