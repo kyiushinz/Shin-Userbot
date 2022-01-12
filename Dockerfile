@@ -1,15 +1,15 @@
 # Using Python Slim-Buster
 FROM vckyouuu/geezprojects:buster
 #━━━━━ Userbot Telegram ━━━━━
-#━━━━━ By Bdrl-Userbot ━━━━━
+#━━━━━ By Reyy-Userbot ━━━━━
 
-RUN git clone -b Bdrl-userbot https://github.com/Yansaii/Bdrl-userbot /root/userbot
+RUN git clone -b Reyy-userbot https://github.com/ReyyNada/Reyy-userbot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
 
 #Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/Yansaii/Bdrl-userbot/Bdrl-userbot/requirements.txt
+RUN pip3 install -r https://raw.githubusercontent.com/ReyyNada-userbot/Reyy-userbot/requirements.txt
 
 EXPOSE 80 443
 
