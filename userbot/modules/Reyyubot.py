@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Bdrl - Userbot
+# Copyright (C) 2021 Reyy - Userbot
 # Created by Kyy
 # Jangan hapus credit Anj!!!
 
