@@ -21,7 +21,7 @@ absen = [
     "**Hadir kak** 😉",
     "**Hadir bang** 😁",
     "**Hadir kak maap telat** 🥺",
-    "**Hadir bang badrul** 😳",
+    "**Hadir bang ** 😳",
     "**Hadir cok** 😎",
     "**Hadir jancok** 😎",
 ]
@@ -90,7 +90,7 @@ async def redis(pong):
     await pong.edit(
         f"**{ALIVE_NAME}**        \n"
         f"**➾Kecepatan : ** '%sms'  \n"
-        f"**➾Branch : ** 'Bdrl-Userbot` \n" % (duration)
+        f"**➾Branch : ** 'Reyy-Userbot` \n" % (duration)
     )
 
 
@@ -128,7 +128,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**⚡️ʙᴅʀʟ-ᴜʙᴏᴛ⚡️**\n"
+        f"**⚡️ʀᴇʏʏ-ᴜsᴇʀʙᴏᴛ⚡️**\n"
         f"➾ __Signal__    __:__ "
         f"`%sms` \n"
         f"➾ __Uptime__ __:__ "
@@ -152,7 +152,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**⚡️ ʙᴅʀʟ-ᴜʙᴏᴛ ⚡️**\n\n"
+        f"**⚡️ ʀᴇʏʏ-ᴜsᴇʀʙᴏᴛ ⚡️**\n\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -235,7 +235,7 @@ async def pingme(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"**⚡️BdrlName : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
+    await pong.edit(f"**⚡️ReyyName : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
 
 
 @register(outgoing=True, pattern="^.pink$")
