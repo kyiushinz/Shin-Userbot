@@ -157,7 +157,7 @@ async def redis(pong):
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
         f"`{uptime}` \n"
-        f"** ▹  Oᴡɴᴇʀ   :** `{ALIVE_NAME}` \n" % (duration)
+        f"** ▹Oᴡɴᴇʀ:** `{ALIVE_NAME}` \n" % (duration)
     )
 
 
@@ -179,7 +179,7 @@ async def pingme(pong):
         f"`%sms` \n"
         f" **ᴜᴘᴛɪᴍᴇ :** "
         f"`{uptime}` \n"
-        f" **✹⃝⁦꙰ᴏɴᴡᴇʀ :** `{ALIVE_NAME}`" % (duration)
+        f" **Oᴡɴᴇʀ:** `{ALIVE_NAME}`" % (duration)
     )
 
 
