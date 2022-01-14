@@ -1,7 +1,7 @@
 {
-  "name": "Reyy-Userbot",
-  "description": "REYY-USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/38766318af3b93184242a.jpg",
+  "name": "Shin-Userbot",
+  "description": "Shin-Userbot KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-.",
+  "logo": "https://telegra.ph/file/32eeead2aec7a7a28571a.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ReyyNada/Reyy-userbot",
-  "telegram": "https://t.me/SangDappaa",
+  "repository": "https://github.com/kyiushinz/Shin-Userbot",
+  "telegram": "https://t.me/ZenXMato",
   "success_url": "https://t.me/bdrlsupportt",
   "stack": "container",
   "env": {
