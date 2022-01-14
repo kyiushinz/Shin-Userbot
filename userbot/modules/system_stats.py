@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**⚡️ʀᴇʏʏ-ᴜsᴇʀʙᴏᴛ⚡️ Versi:** \n "
-            f"heads/ʀᴇʏʏ-ᴜsᴇʀʙᴏᴛ-0-x634i7u1"
+            "**⚜-**🔥ᴜsᴇʀʙᴏᴛ🔥 Versi:** \n "
+            f"heads/Shin-ᴜsᴇʀʙᴏᴛ-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -228,8 +228,8 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **⚡️ʀᴇʏʏ-ᴜsᴇʀʙᴏᴛ⚡️** \n\n"
-        f"\n__**{REYY_TEKS_KUSTOM}**__\n\n\n"
+        f" **🔥ᴜsᴇʀʙᴏᴛ🔥** \n\n"
+        f"\n__**{SHIN_TEKS_KUSTOM}**__\n\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"◙ `Name       :` {DEFAULTUSER} \n"
         f"◙ `Username   :` @{user.username} \n"
@@ -238,7 +238,7 @@ async def amireallyalive(alive):
         f"◙ `Bot Ver    :` {BOT_VER} \n"
         f"◙ `Modules    :` {len(modules)} \n"
         f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
-        f"[ɢʀᴏᴜᴘꜱ](https://t.me/bdrlsupportt) | [ᴄʜᴀɴɴᴇʟ](https://t.me/stay_hallal) | [ᴏᴡɴᴇʀ](https://t.me/SangDappaa) | [ɢɪᴛʜᴜʙ](https://github.com/ReyyNada/Reyy-userbot)")
+        f"[ɢʀᴏᴜᴘꜱ](https://t.me/CariKenalanBebas) | [ᴄʜᴀɴɴᴇʟ](https://t.me/Kata_Zen) | [ᴏᴡɴᴇʀ](https://t.me/ZenxMato) | [ɢɪᴛʜᴜʙ](https://github.com/kyiushinz/Shin-Userbot)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -265,7 +265,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[ᴀɴᴀᴋ ᴛᴜʜᴀɴ](t.me/SangDappaa) \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[ᴀɴᴀᴋ ᴛᴜʜᴀɴ](t.me/ZenXMato) \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__} \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
@@ -303,7 +303,7 @@ async def redis(alive):
     await alive.edit("__Sedang Memuat...__")
     await alive.edit("__Sedang Memuat..__")
     await alive.edit("__Sedang Memuat...__")
-    await alive.edit("⚡️")
+    await alive.edit("😴")
     await asyncio.sleep(2)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
@@ -314,9 +314,9 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [ʀᴇʏʏ-ᴜsᴇʀʙᴏᴛ](https://github.com/ReyyNada/Reyy-userbot) \n"
-        f"┣  `Support  :` [ᴄʜᴀɴɴᴇʟ](https://t.me/gabuuttty) \n"
-        f"┣  `Owner    :` [ᴀɴᴀᴋ ᴛᴜʜᴀɴ](https://t.me/SangDappaa) \n"
+        f"┣  `GitHub   :` [ᴜsᴇʀʙᴏᴛ](https://github.com/kyiushinz/Shin-Userbot) \n"
+        f"┣  `Support  :` [ᴄʜᴀɴɴᴇʟ](https://t.me/Kata_Zen) \n"
+        f"┣  `Owner    :` [ᴀɴᴀᴋ ᴛᴜʜᴀɴ](https://t.me/ZenxMato) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
