@@ -87,7 +87,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[⚡️ ʀᴇʏʏ-ᴜsᴇʀʙᴏᴛ Repo](https://github.com/ReyyNada/Reyy-userbot/blob/Reyy-userbot/README.md)"
+        "\n[⚡️ ᴜsᴇʀʙᴏᴛ Repo](https://github.com/kyiushinz/Shin-Userbot/blob/Shin-Userbot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -110,13 +110,13 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**Hey**, I am using **⚡️ ʀᴇʏʏ-ᴜsᴇʀʙᴏᴛ⚡️** \n"
+        "**Hey**, I am using **😴 ᴜsᴇʀʙᴏᴛ 😴** \n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/ReyyNada/Reyy-userbot)\n"
-        "➣ **Owner Bot       :** [ᴀɴᴀᴋ ᴛᴜʜᴀɴ](t.me/SangDappaa)\n"
+        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/kyiushinz/Shin-Userbot)\n"
+        "➣ **Owner Bot       :** [ᴀɴᴀᴋ ᴛᴜʜᴀɴ](t.me/ZenxMato)\n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-        "➣ **Support           :** [sᴜᴘᴘᴏʀᴛ](https://t.me/bdrlsupportt)\n"
-        "➣ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/stay_hallal)\n"
+        "➣ **Support           :** [sᴜᴘᴘᴏʀᴛ](https://t.me/CariKenalanBebas)\n"
+        "➣ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/Kata_Zen)\n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
     )
 
