@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">Reyy-userbot<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
+<h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">Zen-Userbot<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
 
 <p align="center">
     <a href="https://github.com/kyiushinz/Shin-Userbot/commits/Shin-Userbot"><img src="https://img.shields.io/github/last-commit/kyiushinz/Shin-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
