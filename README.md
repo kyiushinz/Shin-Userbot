@@ -1,15 +1,15 @@
 <h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">Reyy-userbot<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
 
 <p align="center">
-    <a href="https://github.com/ReyyNada/Reyy-userbot/commits/Reyy-userbot"><img src="https://img.shields.io/github/last-commit/ReyyNada/Reyy-userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
-    <a href="https://github.com/ReyyNada/Reyy-userbot"> <img src="https://img.shields.io/github/repo-size/ReyyNada/Reyy-userbot?logo=github&style=for-the-badge" /></a>
+    <a href="https://github.com/kyiushinz/Shin-Userbot/commits/Shin-Userbot"><img src="https://img.shields.io/github/last-commit/kyiushinz/Shin-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
+    <a href="https://github.com/kyiushinz/Shin-Userbot"> <img src="https://img.shields.io/github/repo-size/kyiushinz/Shin-Userbot?logo=github&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.6-purple?style=for-the-badge&logo=appveyor"/>
     </p>
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/38766318af3b93184242a.jpg">
+  <img src="https://telegra.ph/file/32eeead2aec7a7a28571a.jpg">
 </p>
 
 
@@ -28,7 +28,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 
 
 ## Heroku Deployment
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ReyyNada/Reyy-userbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kyiushinz/Shin-Userbot)
 
 
 ### Support & Updates 
